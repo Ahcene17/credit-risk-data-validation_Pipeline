@@ -1,0 +1,29 @@
+{
+  "expectations": [
+    {
+      "column": "person_age",
+      "expectation": "between",
+      "min": 18,
+      "max": 100
+    },
+    {
+      "column": "person_income",
+      "expectation": "greater_than",
+      "min": 0
+    },
+    {
+      "column": "loan_amnt",
+      "expectation": "greater_than",
+      "min": 0
+    },
+    {
+      "column": "person_emp_length",
+      "expectation": "not_null"
+    },
+    {
+      "column": "loan_int_rate",
+      "expectation": "greater_than",
+      "min": 0
+    }
+  ]
+}
